@@ -1,3 +1,4 @@
+# Machine Learning Coursework
 ---
 
 > A full-semester practical implementation of core machine learning algorithms — from classical clustering and classification through to deep convolutional neural networks — applied to real datasets with rigorous performance analysis.
