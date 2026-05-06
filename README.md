@@ -5,19 +5,6 @@
 
 ---
 
-## Module Overview
-
-| Detail | Info |
-|---|---|
-| **Module Code** | CP60057E |
-| **Module Title** | Machine Learning |
-| **Academic Year** | 2025–2026 |
-| **Module Leader** | Professor Massoud Zolgharni |
-| **Module Tutor** | Eman Alajrami |
-| **Assessment Word Count** | ~2,500 (written answers) |
-
----
-
 ## Repository Structure
 
 ```
