@@ -5,47 +5,6 @@
 
 ---
 
-## Repository Structure
-
-```
-CP60057E-Machine-Learning/
-│
-├── Session-03-Clustering/
-│   └── kmeans_elbow.py              # K-Means + Elbow Method
-│
-├── Session-04-Classification/
-│   └── knn_classifier.py            # K-NN (K=3 and K=7) with ROC curves
-│
-├── Session-05-RandomForest/
-│   └── random_forest_iris.py        # RF with 2, 3, 4 features per split
-│
-├── Session-06-Perceptron/
-│   └── perceptron.py                # Linear Perceptron classifier
-│
-├── Session-07-SVM/
-│   ├── svm_task1.py                 # SVM with C=[0.01, 0.1, 1.0]
-│   └── svm_task2.py                 # Manual SVM boundary + support vectors
-│
-├── Session-08-NeuralNetworks/
-│   └── mlp_iris.py                  # MLP architectures on Iris dataset
-│
-├── Session-09-ImageClassification/
-│   └── knn_cifar10.py               # K-NN on CIFAR-10 (cross-validation)
-│
-├── Session-10-CNN/
-│   └── cnn_cifar10.py               # CNN: epochs × kernel size experiments
-│
-├── Session-11-Regression/
-│   └── linear_regression.py         # Linear regression + cost function J
-│
-├── report/
-│   └── 33114153_Osman_MohammedAdnan.pdf
-│
-└── README.md
-```
-
----
-
 ## Sessions & Key Results
 
 ### Session 03 — Clustering (K-Means)
