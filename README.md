@@ -14,7 +14,7 @@ Applied the **Elbow Method** to determine optimal K on a synthetic 2D dataset.
 | K | WCSS | Decision |
 |---|---|---|
 | 1 | ~50,000 | Too few clusters |
-| **3** | **~3,500** | **✅ Optimal — elbow point** |
+| **3** | **~3,500** | **Optimal — elbow point** |
 | 4+ | Minimal drop | Diminishing returns |
 
 **Key insight:** K-Means with K=3 produced three well-separated clusters with clearly defined centroids. Noted limitations: assumes spherical clusters, sensitive to centroid initialisation. DBSCAN flagged as a more robust alternative for non-spherical distributions.
@@ -135,7 +135,7 @@ Result:  -3
 | Kernel | Epochs | Test Accuracy |
 |---|---|---|
 | 3×3 | 10 | 0.6974 |
-| 3×3 | 20 | **0.6992** ✅ |
+| 3×3 | 20 | **0.6992**  |
 | 3×3 | 50 | 0.6928 |
 | 5×5 | 10 | 0.6750 |
 | 5×5 | 20 | 0.6755 |
@@ -161,7 +161,7 @@ LSE:   867.32
 | Model | Equation | LSE |
 |---|---|---|
 | Model 1 | Ŷ = 22.60x + 169.2 | 29,224 |
-| **Model 2** | **Ŷ = 23.42x + 167.7** | **18,837 ✅** |
+| **Model 2** | **Ŷ = 23.42x + 167.7** | **18,837 ** |
 | Model 3 | Ŷ = 23.10x + 168.1 | 20,439 |
 
 **Task 3 — Marketing Budget → Sales:**
@@ -187,7 +187,7 @@ J = 2,172,668.16
 
 ---
 
-## 🧠 Algorithm Comparison Summary
+## Algorithm Comparison Summary
 
 | Algorithm | Dataset | Best Accuracy | Key Strength |
 |---|---|---|---|
@@ -202,7 +202,7 @@ J = 2,172,668.16
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn tensorflow keras
@@ -233,21 +233,3 @@ python Session-10-CNN/cnn_cifar10.py
 > **Note:** CIFAR-10 dataset is downloaded automatically via `keras.datasets.cifar10`. Iris dataset loaded via `sklearn.datasets.load_iris`.
 
 ---
-
-## References
-
-- Zolgharni, M. (2025) *Machine Learning: Google Colab Notebooks (Weeks 3–11)*. University of West London.
-- Zolgharni, M. (2025) *Machine Learning: Lecture Slides (Weeks 1–11)*. University of West London.
-- Géron, A. (2022) *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow*. 3rd edn. O'Reilly Media.
-- Kundu, R. (2022) *F1 Score in Machine Learning: Intro & Calculation*. V7labs.
-- GeeksforGeeks (2025) *Curse of Dimensionality in Machine Learning*.
-- GeeksforGeeks (2025) *Advantages and Disadvantages of Random Forest*.
-
----
-
-<div align="center">
-
-**Mohammed Adnan Osman · 33114153 · BSc Computer Science**
-University of West London · CP60057E Machine Learning · 2025–2026
-
-</div>
