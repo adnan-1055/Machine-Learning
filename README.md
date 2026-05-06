@@ -148,7 +148,7 @@ Result:  -3
 
 ---
 
-### 🟤 Session 11 — Linear Regression
+### Session 11 — Linear Regression
 
 **Task 1 — Least Squares Error:**
 ```
@@ -215,21 +215,5 @@ pip install numpy pandas matplotlib scikit-learn tensorflow keras
 | `numpy` | Vectorised distance computation (K-NN no-loop) |
 | `matplotlib` | All plots — ROC curves, confusion matrices, accuracy graphs |
 | `pandas` | Dataset loading and preprocessing |
-
----
-
-## Running the Scripts
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/CP60057E-Machine-Learning.git
-cd CP60057E-Machine-Learning
-
-# Run any session script, e.g.:
-python Session-03-Clustering/kmeans_elbow.py
-python Session-10-CNN/cnn_cifar10.py
-```
-
-> **Note:** CIFAR-10 dataset is downloaded automatically via `keras.datasets.cifar10`. Iris dataset loaded via `sklearn.datasets.load_iris`.
 
 ---
